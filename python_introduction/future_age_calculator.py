@@ -1,4 +1,4 @@
-age = int(input("How old are you?\n"))
+age = int(input("How old are you?"))
 
 age_in_2050 = age + 27
 
