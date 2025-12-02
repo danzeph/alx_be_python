@@ -8,10 +8,10 @@ def perform_operation(num1, num2, operation):
     elif operation == "multiply":
         result = num1 * num2
     elif operation == "divide":
-        if num2 != 0:
-            result = num1 / num2
-        else:
+        if num2 == 0:
             result = "Cannot divide by Zero"
+        else:
+            result = num1 / num2
     else:
         result = "Please Enter a Valid operation (add, subtract, multiply, divide)"
     
