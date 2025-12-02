@@ -11,19 +11,19 @@ Result: 7.0
 Enter the first number: 5
 Enter the second number: 2
 Enter the operation (add, subtract, multiply, divide): subtract
-Result: -3.00
+Result: -3.0
 ```
 ---
 ```python
 Enter the first number: 5
 Enter the second number: 2
 Enter the operation (add, subtract, multiply, divide): multiply
-Result: 10.00
+Result: 10.0
 ```
 ---
 ```python
 Enter the first number: 5
 Enter the second number: 2
 Enter the operation (add, subtract, multiply, divide): divide
-Result: 0.80
+Result: 0.8
 ```
