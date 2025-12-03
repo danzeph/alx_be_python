@@ -13,12 +13,21 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            pass
+            item = input("\nEnter an item to add to your list: ").lower()
+            shopping_list.append(item)
+            print(f"Your item {item} has been added to the list: ")
         elif choice == '2':
             # Prompt for and remove an item
-            pass
+            item = input("\nEnter the name of the item you want to remove: ").lower()
+            if (item in shopping_list):
+                shopping_list.remove(item)
+                print(f"The item {item} has been removed")
+            else:
+                print(f"The Item {item} is not in the Shopping List")
+                
         elif choice == '3':
-            # Display the shopping list
+            for i in shopping_list:
+                print(i)
             pass
         elif choice == '4':
             print("Goodbye!")
