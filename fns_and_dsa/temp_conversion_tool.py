@@ -14,23 +14,21 @@ def convert_to_fahrenheit(celsius):
 # Validate temperature
 while True:
     try: 
-        temps = input("Enter the temperature to convert: ")
-        temp = float(temps)
+        temp = input("Enter the temperature to convert: ")
         break
     except ValueError:
         print(f"Invalid temperature. Please enter a numeric value.")
 
 # Validate unit
 while True:
-    temp_units = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
-    temp_unit = temp_units.upper()
+    temp_unit = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
     if temp_unit in ("C", "F"):
         break
     elif temp_unit == "Q":
         print("Exiting...")
         exit()
     else:
-        print(f"Invalid unit. {temp_units}! enter q to quit")
+        print(f"Invalid unit.! enter q to quit")
         
 if temp_unit == "C":
     convert_to_fahrenheit(temp)
