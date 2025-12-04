@@ -18,7 +18,7 @@ while True:
         temp = float(temps)
         break
     except ValueError:
-        print(f"Invalid temperature {temps}! \n")
+        print(f"Invalid temperature. Please enter a numeric value.")
 
 # Validate unit
 while True:
