@@ -16,9 +16,9 @@ while True:
     try: 
         temps = input("Enter the temperature to convert: ")
         temp = float(temps)
-      if temps == "Q":
-        print("Exiting...")
-        exit()
+        if temps == "Q":
+          print("Exiting...")
+          exit()
         break
     except ValueError:
         print(f"Invalid temperature {temps}! \n")
