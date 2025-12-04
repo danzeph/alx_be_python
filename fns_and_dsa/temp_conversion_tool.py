@@ -22,7 +22,7 @@ while True:
 
 # Validate unit
 while True:
-    temp_units = input("Is this temperature in Celsius or Fahrenheit (C/F): ")
+    temp_units = input("Is this temperature in Celsius or Fahrenheit? (C/F): ")
     temp_unit = temp_units.upper()
     if temp_unit in ("C", "F"):
         break
