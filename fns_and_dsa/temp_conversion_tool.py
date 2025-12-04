@@ -13,10 +13,12 @@ def convert_to_fahrenheit(celsius):
   
 # Validate temperature
 while True:
-    try:
-        
+    try: 
         temps = input("Enter the temperature to convert: ")
         temp = float(temps)
+      if temps == "Q":
+        print("Exiting...")
+        exit()
         break
     except ValueError:
         print(f"Invalid temperature {temps}! \n")
