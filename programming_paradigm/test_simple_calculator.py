@@ -28,7 +28,7 @@ class TestSimpleCalculator(unittest.TestCase):
         self.assertEqual(self.calc.multiply(0, -1), 0)
         self.assertEqual(self.calc.multiply(-4, -2), 8)
         
-    def test_divide(self):
+    def test_division(self):
         """"Test division funciton"""
         self.assertEqual(self.calc.divide(4, 2), 2)
         self.assertEqual(self.calc.divide(-2,-2), 1)
